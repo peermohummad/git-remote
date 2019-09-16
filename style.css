@@ -1,21 +1,64 @@
-body {
-    font-family: 'Courier New', Courier, monospace;
+nav{
+    background-color:#474646;
+}
+ ul{
+    padding:0rem;
+    margin:0rem;
+}
+
+.menu{
+    display:inline;
+    color:white;
+    font-size:1rem;
+    padding:0.3rem 1.5rem 0.3rem 1.5rem;
+    vertical-align: middle;
+}
+
+.menu:first-of-type{
+    font-size:1.5rem;
+    padding:0rem 1rem 0.01rem 1rem;
+}
+  
+.menu:hover{
+    background-color:#EEEEEE;
+    color:gray;
 }
 
 
-img {
-    width: 300px;
-    height: 300px;
-    border-radius:10px 10px;
-}
 
-.hover-effect:hover{   
-    opacity: 0.8;
-    cursor: pointer;
+.carousel{
+    background-color:#EEEEEE;
+    height:10rem;
 }
 
 
-img:nth-of-type(2) {  
-    filter: grayscale(100%);
-    cursor: pointer;
+
+.titlefellows{
+    text-align:center;
+}
+
+.sectionfellows{
+    display: flex;
+    justify-content: center;
+}
+
+.detailsfellows{
+    background-color:#EEEEEE;
+    height: 20rem;
+    width:13rem;
+    margin: 0 0.5rem;
+    margin-bottom: 3rem;
+}
+
+
+
+
+.contactus{
+    font-size:1.3rem;
+    margin-top:0rem;
+}
+.formulaire{
+    display:block;
+    margin:0.8rem auto;
+    width:80%;
 }
