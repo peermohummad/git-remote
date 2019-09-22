@@ -1,0 +1,90 @@
+nav{
+  background-color:#474646;
+}
+
+ ul{
+  padding:0;
+  margin:0;
+}
+
+.menu{
+  display:inline;
+  color:white;
+  font-size:1rem;
+  padding:1rem 1.5rem 0.3rem 1.5rem;
+  vertical-align: middle;
+}
+
+.menu:first-of-type{
+  font-size:1.5rem;
+  padding:0rem 1rem 0.01rem 1rem;
+  vertical-align: middle;
+}
+  
+.menu:hover{
+  background-color:#EEEEEE;
+  color:gray;
+}
+
+
+
+.carousel{
+  background-color:#EEEEEE;
+  height:10rem;
+}
+
+@media screen and (max-width: 961px){
+  .carousel{
+    display:none;
+  }
+}
+
+.titlefellows{
+	text-align:center;
+	margin:3rem;
+	font-size:0.8rem;
+}
+
+@media screen and (max-width: 961px){
+  .titlefellows{
+   font-size:1.1rem;
+  }
+}
+
+.sectionfellows{
+  display: flex;
+  justify-content: center;
+}
+
+.detailsfellows{
+  display:inline-block;
+  background-color:#EEEEEE;
+  height: 20rem;
+  width:30%;
+  margin: 0 1rem;
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 961px){
+  .sectionfellows{
+    display:none;
+  }
+}
+
+.contactus{
+  font-size:1.3rem;
+  margin-top:0rem;
+}
+
+@media screen and (max-width: 961px){
+  .contactus{
+  text-align:center;
+	margin-top:2rem;
+  }
+}
+
+.formulaire{
+  display:block;
+  margin:0.8rem auto;
+  width:80%;
+}
