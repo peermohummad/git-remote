@@ -1,0 +1,161 @@
+nav{
+  background-color:#474646;
+}
+
+ ul{
+  padding:0;
+  margin:0;
+}
+
+.menu{
+  display:inline;
+  color:white;
+  font-size:1.2rem;
+  padding:1rem 1.5rem 0.3rem 1.5rem;
+  vertical-align: middle;
+}
+
+.menu:first-of-type{
+  font-size:1.5rem;
+  padding:0rem 1rem 0.01rem 1rem;
+  vertical-align: middle;
+}
+@media screen and (max-width: 961px){
+  .menu:first-of-type{
+    font-size:1rem;
+  }
+
+  .menu{
+    font-size:0.8rem;
+  }
+
+}
+
+
+.menu:hover{
+  background-color:#EEEEEE;
+  color:gray;
+}
+
+
+
+.carousel{
+  background-color:#EEEEEE;
+  height:10rem;
+}
+
+
+.titlefellows{
+	text-align:center;
+	margin:3rem;
+	font-size:0.8rem;
+}
+
+.sectionfellows{
+  display: flex;
+  flex-direction: row;
+}
+
+.detailsfellows{
+  flex: 200px;
+  padding: 10px;
+  margin: 10px;
+  background:#EEEEEE;
+  height: 400px;
+  margin-bottom: 150px;
+  
+}
+@media screen and (max-width: 961px){
+  .sectionfellows{
+   display:flex;
+   flex-direction: column;
+  }
+}
+@media screen and (max-width: 961px){
+  .detailsfellows{
+    margin-bottom: 10px;
+  }
+}
+.contactus{
+  font-size:1.3rem;
+  margin-top:0rem;
+}
+
+@media screen and (max-width: 961px){
+  .contactus{
+  text-align:center;
+	margin-top:2rem;
+  }
+}
+
+.formulaire{
+  display:block;
+  margin:0.8rem auto;
+  width:80%;
+}
+.button {
+  display: block;
+  width:90%;
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+
+
+
+.sectionfooter{
+  display: flex;
+  flex-direction: row;
+  background-color:#424242;
+  padding: 10px;
+  margin: 10px;
+}
+
+.detailfooter{
+  justify-content: center;
+  flex: 1px;
+  color:white;
+  padding:10px 10px;
+  margin: 10px;
+  font-family: cursive;
+
+}
+
+article:nth-of-type(3)  {
+  flex:1 100px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 961px){
+  .sectionfooter{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    padding:0px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 961px){
+  .detailfooter{
+    padding:0px;
+    margin: 0px;
+    font-size: 15px;
+    font-family: cursive;
+  }
+
+
+  article:nth-of-type(3) {
+    flex:1 0px;
+    display: flex;
+    flex-flow:nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: 15px;
+    font-family: cursive;
+  }
+}
